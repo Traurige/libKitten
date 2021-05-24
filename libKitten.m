@@ -327,4 +327,19 @@
 
 }
 
+// https://gist.github.com/delputnam/2d80e7b4bd9363fd221d131e4cfdbd8f
++ (BOOL)isDarkColor:(UIColor *)color {
+    
+    if (!color) return YES;
+
+    const CGFloat* components = CGColorGetComponents([color CGColor]);
+    double brightness = ((components[0] * 299) + (components[1] * 587) + (components[2] * 114)) / 1000;
+    
+    if (brightness < 0.5)
+        return YES;
+    else
+        return NO;
+    
+}
+
 @end

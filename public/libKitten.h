@@ -5,4 +5,5 @@
 + (UIColor *)primaryColor:(UIImage *)image;
 + (UIColor *)secondaryColor:(UIImage *)image;
 + (BOOL)isDarkImage:(UIImage *)image;
++ (BOOL)isDarkColor:(UIColor *)color;
 @end
