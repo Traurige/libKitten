@@ -22,6 +22,8 @@
 
 + (UIColor *)getColorFromImage:(UIImage *)image calculation:(int)calculation dimension:(int)dimension flexibility:(int)flexibility range:(int)range {
 
+    if (!image) return [UIColor whiteColor];
+
     if (calculation == 0) { // average
         // https://stackoverflow.com/a/13695592
         CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
@@ -177,8 +179,9 @@
 // https://gist.github.com/justinHowlett/4611988
 + (BOOL)isDarkImage:(UIImage *)image {
 
-    BOOL isDark = NO;
+    if (!image) return YES;
 
+    BOOL isDark = NO;
     CFDataRef imageData = CGDataProviderCopyData(CGImageGetDataProvider([image CGImage]));
     const UInt8* pixels = CFDataGetBytePtr(imageData);
     int darkPixels = 0;
