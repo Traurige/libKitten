@@ -54,3 +54,6 @@ You don't have to create variables of course, `[label setTextColor:[libKitten pr
 
 }
 ```
+
+## License
+Since this library is made from open source code you can freely take whatever you need
