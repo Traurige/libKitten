@@ -8,6 +8,6 @@ Maintainer: Litten
 Author: Litten
 Section: System
 Tag: role::developer
-Depiction: https://repo.litten.love/depictions/libktn/index.html
-SileoDepiction: https://repo.litten.love/depictions/libktn/libktn.json
-Icon: https://repo.litten.love/depictions/libktn/assets/icon.png
+Depiction: https://repo.litten.love/depictions/libKitten/index.html
+SileoDepiction: https://repo.litten.love/depictions/libKitten/index.json
+Icon: https://repo.litten.love/depictions/libKitten/assets/icon.png
