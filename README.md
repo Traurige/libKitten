@@ -7,7 +7,7 @@ Library to calculate three different colors from an image or determine if an ima
 
 ## Compiling
   - [Theos](https://theos.dev/) is required to compile the project
-  - You may want to edit the root `Makefile` to use your Theos SDK
+  - You may want to edit the root `Makefile` to use your Theos SDK and toolchain
 
 ## License
 Since this library is made from open source code you can freely take whatever you need<br>
