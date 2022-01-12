@@ -1,3 +1,10 @@
+//
+//  libKitten.m
+//  libKitten
+//
+//  Created by Alexandra (@schneelittchen)
+//
+
 #import <UIKit/UIKit.h>
 
 @interface libKitten : NSObject

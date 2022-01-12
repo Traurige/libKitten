@@ -1,3 +1,10 @@
+//
+//  libKitten.m
+//  libKitten
+//
+//  Created by Alexandra (@schneelittchen)
+//
+
 #import "public/libKitten.h"
 
 @implementation libKitten
