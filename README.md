@@ -9,6 +9,9 @@ Library to calculate three different colors from an image or determine if an ima
   - [Theos](https://theos.dev/) is required to compile the project
   - You may want to edit the root `Makefile` to use your Theos SDK and toolchain
 
+## Compatibility
+iPhone, iPad, iPod and AppleTV running iOS/iPadOS/tvOS 12 or later
+
 ## License
 Since this library is made from open source code you can freely take whatever you need<br>
 You may not redistribute this source code or packages from it<br>
