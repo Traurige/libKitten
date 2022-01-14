@@ -5,7 +5,7 @@
 //  Created by Alexandra (@schneelittchen)
 //
 
-#import "public/libKitten.h"
+#import "libKitten.h"
 
 @implementation libKitten
 
