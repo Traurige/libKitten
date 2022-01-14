@@ -24,8 +24,12 @@ libKitten is licensed under the MIT license
 
 # Developers
 
-## Theos Installation:
-Download this repository and navigate into either iOS or tvOS depending on your target system, then put the .dylib into your theos/lib folder and the Kitten folder into your theos/include folder
+## Installing Into Theos:
+**Method 1:**<br>
+Depending on your target system put the `.dylib` from either the `iOS` or `tvOS` folder into your `theos/lib` folder and the `Kitten` folder into `theos/include`
+***
+**Method 2:**<br>
+Compile the project yourself and it'll do all that by itself
 
 ## Importing Into Your Project:
 Import the library in your header or main file `#import <Kitten/libKitten.h>`<br>
