@@ -8,6 +8,10 @@ Library to calculate three different colors from an image or determine if an ima
 ## Compiling
   - [Theos](https://theos.dev/) is required to compile the project
   - You may want to edit the root `Makefile` to use your Theos SDK and toolchain
+  - Additionally to compile for tvOS:
+    - Make sure you're using a tvOS SDK
+    - Change the target from `iphone:clang` to `appletv:clang` in the root `Makefile`
+    - Change the architecture `iphoneos-arm` to `appletvos-arm64` in the control file
 
 ## Compatibility
 iPhone, iPad, iPod and AppleTV running iOS/iPadOS/tvOS 12 or later
