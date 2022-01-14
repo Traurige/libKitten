@@ -33,13 +33,17 @@ Add the library to your Makefile `TWEAK_NAME_LIBRARIES = kitten`<br>
 Make libKitten a dependency of your tweak in your control file `Depends: love.litten.libkitten`<br>
 
 ## Usage:
-You can create variables to use later on like this:<br>
-`UIColor* backgroundColor = [libKitten backgroundColor:theImageYouWantToCalculate];`<br>
-`UIColor* primaryColor = [libKitten primaryColor:theImageYouWantToCalculate];`<br>
-`UIColor* secondaryColor = [libKitten secondaryColor:theImageYouWantToCalculate];`<br>
-The parameter "theImageYouWantToCalculate" is the UIImage you want to get the color from; Now you can just use it wherever you need it
-<br><br>
-You don't have to create variables of course, `[label setTextColor:[libKitten primaryColor:theImageYouWantToCalculate]];` works as well
+Available methods are:
+
+```objc
++ (UIColor *)backgroundColor:(UIImage *)image;
++ (UIColor *)primaryColor:(UIImage *)image;
++ (UIColor *)secondaryColor:(UIImage *)image;
++ (BOOL)isDarkImage:(UIImage *)image;
++ (BOOL)isDarkColor:(UIColor *)color;
+```
+
+They can all be used the same way: `[libKitten backgroundColor:YOUR_IMAGE];`
 
 ## Example
 
