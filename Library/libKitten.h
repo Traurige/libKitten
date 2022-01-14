@@ -11,7 +11,7 @@
 + (UIColor *)backgroundColor:(UIImage *)image;
 + (UIColor *)primaryColor:(UIImage *)image;
 + (UIColor *)secondaryColor:(UIImage *)image;
-+ (UIColor *)getColorFromImage:(UIImage *)image calculation:(int)calculation dimension:(int)dimension flexibility:(int)flexibility range:(int)range;
 + (BOOL)isDarkImage:(UIImage *)image;
 + (BOOL)isDarkColor:(UIColor *)color;
++ (UIColor *)getColorFromImage:(UIImage *)image calculation:(int)calculation dimension:(int)dimension flexibility:(int)flexibility range:(int)range;
 @end
