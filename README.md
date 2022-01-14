@@ -32,9 +32,9 @@ Depending on your target system put the `.dylib` from either the `iOS` or `tvOS`
 Compile the project yourself and it'll do all that by itself
 
 ## Importing Into Your Project:
-Import the library in your header or main file `#import <Kitten/libKitten.h>`<br>
-Add the library to your Makefile `TWEAK_NAME_LIBRARIES = kitten`<br>
-Make libKitten a dependency of your tweak in your control file `Depends: love.litten.libkitten`<br>
+1. Import the library in your header or main file `#import <Kitten/libKitten.h>`
+2. Add the library to your Makefile `TWEAK_NAME_LIBRARIES = kitten`
+3. Make libKitten a dependency of your tweak in your control file `Depends: love.litten.libkitten`<br>
 
 ## Usage:
 Available methods are:
