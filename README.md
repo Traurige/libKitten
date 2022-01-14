@@ -1,4 +1,4 @@
-# libKitten
+# libKitten 🐱
 Library to calculate three different colors from an image or determine if an image/color is light or dark
 
 ## Installation
