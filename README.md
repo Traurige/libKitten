@@ -5,14 +5,6 @@ Library to calculate three different colors from an image or determine if an ima
 1. Add this repository to your package manager: `TBD`
 2. Install libKitten
 
-## Compiling
-  - [Theos](https://theos.dev/) is required to compile the project
-  - You may want to edit the root `Makefile` to use your Theos SDK and toolchain
-  - Additionally to compile for tvOS:
-    - Make sure you're using a tvOS SDK
-    - Change the target from `iphone:clang` to `appletv:clang` in the root `Makefile`
-    - Change the architecture `iphoneos-arm` to `appletvos-arm64` in the control file
-
 ## Compatibility
 iPhone, iPad, iPod and AppleTV running iOS/iPadOS/tvOS 12 or later
 
@@ -30,6 +22,14 @@ Depending on your target system put the `.dylib` from either the `iOS` or `tvOS`
 ***
 **Method 2:**<br>
 Compile the project yourself and it'll do all that by itself
+
+## Compiling
+  - [Theos](https://theos.dev/) is required to compile the project
+  - You may want to edit the root `Makefile` to use your Theos SDK and toolchain
+  - Additionally to compile for tvOS:
+    - Make sure you're using a tvOS SDK
+    - Change the target from `iphone:clang` to `appletv:clang` in the root `Makefile`
+    - Change the architecture `iphoneos-arm` to `appletvos-arm64` in the control file
 
 ## Importing Into Your Project:
 1. Import the library in your header or main file `#import <Kitten/libKitten.h>`
