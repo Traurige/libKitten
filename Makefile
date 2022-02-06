@@ -3,7 +3,7 @@ export TARGET = iphone:clang:14.4:12.0
 export SYSROOT = $(THEOS)/sdks/iOS/14/iPhoneOS14.4.sdk
 export PREFIX = $(THEOS)/toolchain/Xcode.xctoolchain/usr/bin/
 
-LIBRARY_NAME = libKitten
+LIBRARY_NAME = libkitten
 $(LIBRARY_NAME)_FILES = Library/libKitten.m
 $(LIBRARY_NAME)_CFLAGS = -fobjc-arc -DTHEOS_LEAN_AND_MEAN
 $(LIBRARY_NAME)_FRAMEWORKS = UIKit
@@ -16,4 +16,4 @@ stage::
 	$(ECHO_NOTHING)rsync -a ./Library/libKitten.h $(THEOS_STAGING_DIR)/usr/include/Kitten $(FW_RSYNC_EXCLUDES)$(ECHO_END)
 	mkdir -p $(THEOS)/include/Kitten
 	cp -r ./Library/libKitten.h $(THEOS)/include/Kitten
-	cp $(THEOS_STAGING_DIR)/usr/lib/libKitten.dylib $(THEOS)/lib/libKitten.dylib
+	cp $(THEOS_STAGING_DIR)/usr/lib/libkitten.dylib $(THEOS)/lib/libkitten.dylib
