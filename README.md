@@ -8,12 +8,6 @@ Library to calculate three different colors from an image or determine if an ima
 ## Compatibility
 iPhone, iPad, iPod and AppleTV running iOS/iPadOS/tvOS 12 or later
 
-## License
-libKitten is licensed under the MIT license
-
-## Credits
-  - Links to the original sources are included within the source code
-
 # Developers
 
 ## Installing Into Theos:
@@ -82,3 +76,9 @@ They can all be used the same way: `[libKitten backgroundColor:YOUR_IMAGE];`
 
 }
 ```
+
+## License
+libKitten is licensed under the MIT license
+
+## Credits
+  - Links to the original sources are included within the source code
