@@ -27,7 +27,7 @@ Compile the project yourself and it'll do all that by itself
 
 ## Importing Into Your Project:
 1. Import the library in your header or main file `#import <Kitten/libKitten.h>`
-2. Add the library to your Makefile `TWEAK_NAME_LIBRARIES = kitten`
+2. Add the library to your Makefile `TWEAK_NAME_LIBRARIES = kitten`. If you get a linker issue, try writing`Kitten`, capitalizing the k.
 3. Make libKitten a dependency of your tweak in your control file `Depends: love.litten.libkitten`<br>
 
 ## Usage:
